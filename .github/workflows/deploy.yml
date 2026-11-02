@@ -32,7 +32,7 @@ jobs:
           VITE_GATEWAY_URL: ${{ vars.VITE_GATEWAY_URL }}
           VITE_CHAIN_ID: ${{ vars.VITE_CHAIN_ID }}
           VITE_GRID_TOKEN_ADDRESS: ${{ vars.VITE_GRID_TOKEN_ADDRESS }}
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
 
